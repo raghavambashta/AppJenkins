@@ -14,6 +14,7 @@ namespace HelloApp
 
             Console.WriteLine($"Sum = {calc.Add(70, 80)}");
             Console.WriteLine($"Multiply = {calc.Multiply(4, 5)}");
+            Console.WriteLine($"Multiply = {calc.Subtract(14, 25)}");
             Console.ReadLine();
         }
     }
