@@ -11,10 +11,18 @@ namespace HelloApp
             Console.WriteLine("Welcome to Jenkins");
 
             Calc calc = new Calc();
-
-            Console.WriteLine($"Sum = {calc.Add(70, 80)}");
-            Console.WriteLine($"Multiply = {calc.Multiply(4, 5)}");
-            Console.WriteLine($"Multiply = {calc.Subtract(14, 25)}");
+            Console.WriteLine("Input 2 numbers");
+            int x = Convert.ToInt32(Console.ReadLine());
+            int y = Convert.ToInt32(Console.ReadLine());   
+            Console.WriteLine($"Sum = {calc.Add(x, y)}");
+            Console.WriteLine("Input 2 numbers");
+            x = Convert.ToInt32(Console.ReadLine());
+            y = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Multiply = {calc.Multiply(x, y)}");
+            Console.WriteLine("Input 2 numbers");
+            x = Convert.ToInt32(Console.ReadLine());
+            y = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Multiply = {calc.Subtract(x, y)}");
             Console.ReadLine();
         }
     }
