@@ -22,7 +22,7 @@ namespace HelloApp
             Console.WriteLine("Input 2 numbers");
             x = Convert.ToInt32(Console.ReadLine());
             y = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"Multiply = {calc.Subtract(x, y)}");
+            Console.WriteLine($"Subtract = {calc.Subtract(x, y)}");
             Console.ReadLine();
         }
     }
